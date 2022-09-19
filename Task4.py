@@ -5,6 +5,7 @@
 
 import sys
 
+
 def compress(text):
     if text == "":
         return ""
@@ -28,6 +29,7 @@ def compress(text):
 """
 Функция разжатия данных - сжатые данные берутся из файла
 """
+
 
 def decompress(text):
     i = 0
