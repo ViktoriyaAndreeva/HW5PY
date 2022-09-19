@@ -1,4 +1,4 @@
-#Напишите программу, удаляющую из текста все слова, содержащие ""абв"".
+#Напишите программу, удаляющую из текста все слова, содержащие "абв".
 import codecs
 
 with open('first_data_tsk1.txt', 'r', encoding='utf-8') as f:
@@ -6,7 +6,7 @@ with open('first_data_tsk1.txt', 'r', encoding='utf-8') as f:
 
 text = ' '.join(list(filter(lambda x: "абв" not in x, read.split())))
 
-print(text) 
+print("Текст после удаления:", text) 
 
 f = open('final_data_tsk1.txt', "w")
 f.write(text)
